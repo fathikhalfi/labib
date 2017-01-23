@@ -9,10 +9,9 @@ body{
 
 /*Global styling*/
 .container{
-  width: 80%;
-  margin: auto;
+  width: 1247px;
+  margin: 0 auto;
   overflow: hidden;
-
 }
 
  ul{
@@ -20,6 +19,15 @@ body{
     padding: 0;
 }
 
+.button_1{
+    height: 38px;
+    background-color: #e8491d;
+    border:none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+     box-shadow: 2px 2px 1px #35424a;
+}
 /*Header*/
 header{
  background-color: #35424a;
@@ -51,6 +59,7 @@ header #branding{
 
 header #branding h1{
     margin: 0;
+    text-shadow: 5px 5px 5px #35424a;
 }
 header nav{
     float: right;
@@ -79,4 +88,56 @@ header a:hover{
 }
 #showcase p{
     font-size: 20px;
+}
+/*Newsletter*/
+#newsletter{
+    padding: 15px;
+    color:#ffffff;
+    background-color: #35424a;
+}
+#newsletter h1{
+    float: left;
+
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+#newsletter input {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+
+}
+/*Boxes*/
+#boxes{
+    margin-top: 20px;
+}
+#boxes .box{
+    width: 374px;
+    text-align: center;
+    float: left; 
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 1px #888888;
+    border: solid 0.1px black;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+
+@media (max-width: 1278px) {
+    .container {
+        width: 832px;
+    }
 }
